@@ -15,7 +15,7 @@ const appRouter = createBrowserRouter([
 
 function App() {
   return (
-    <div className=''>
+    <div className=' md:w-[100rem] md:ml-auto md:mr-auto'>
       <Header />
       <Banner />
       <RouterProvider router={appRouter} />
