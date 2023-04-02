@@ -24,7 +24,7 @@ const BlogList = () => {
                 <Blogs title="TypeScript + React" image="https://res.cloudinary.com/practicaldev/image/fetch/s--X8DtWdxA--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/lk4xyn1glcyerqqs66xe.png" createdAt="28 June 2022" category_1="React" category_2="TypeScript"/> 
             </Link>
             </div>
-            <div className='px-5 py-3 text-[10px] md:text-base bg-gray-900 flex items-center justify-center  rounded-full text-[#F7AB0A] h-14 w-40'>
+            <div className='px-5 py-3 text-[10px] md:text-base bg-gray-900 flex items-center justify-center  rounded-full text-[#F7AB0A] h-12 w-40'>
             <Link to="/" className='text-lg'>See More</Link>
             </div>
          </div>
