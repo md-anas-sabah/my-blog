@@ -1,6 +1,6 @@
 import Header from './component/Header';
 import './App.css';
-import Banner from './component/Banner';
+// import Banner from './component/Banner';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Body from './component/Body';
 
@@ -17,7 +17,6 @@ function App() {
   return (
     <div className=' md:w-[100rem] md:ml-auto md:mr-auto'>
       <Header />
-      <Banner />
       <RouterProvider router={appRouter} />
     </div>
   );

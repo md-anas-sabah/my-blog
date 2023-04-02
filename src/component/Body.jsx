@@ -1,9 +1,13 @@
 import React from 'react'
+import BlogList from './BlogList'
+import Banner from './Banner'
+// import { Outlet } from 'react-router-dom'
 
 const Body = () => {
   return (
-    <div className='px-10 py-5'>
-        <h1 className='text-3xl'>Coming Soon🚀</h1>
+    <div className=''>
+        <Banner />
+        <BlogList />
     </div>
   )
 }
