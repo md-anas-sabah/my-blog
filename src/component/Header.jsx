@@ -1,4 +1,5 @@
 import Logo from "../assets/Logo.png";
+// import { Link } from "react-router-dom";
 
 const Header = () => {
     return (
@@ -10,7 +11,7 @@ const Header = () => {
               <h1 className="font-zhi text-base md:text-2xl">Md Anas Sabah</h1>
           </div>
           <div>
-          <a href="https://www.linkedin.com/in/md-anas-sabah/" className="px-5 py-3 text-sm md:text-base bg-gray-900 flex items-center rounded-full text-center text-[#F7AB0A]">
+          <a href="https://www.linkedin.com/in/md-anas-sabah/" className="px-5 py-3 text-[10px] md:text-base bg-gray-900 flex items-center rounded-full text-center text-[#F7AB0A]">
               Checkout My LinkedIn Profile
           </a>
           </div>
