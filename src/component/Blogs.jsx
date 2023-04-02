@@ -4,7 +4,7 @@ const Blogs = ({image, title, createdAt, category_1, category_2}) => {
   return (
     <div className="flex flex-col group cursor-pointer mb-10 max-w-2xl ">
         <div className="relative w-full drop-shadow-xl group-hover:scale-105 transition-transform duration-200 ease-out">
-            <img src={image} alt='im' className="object-fill h-80 object-left lg:object-center" />
+            <img src={image} alt='im' className="object-fill h-80 md:w-[30rem] object-left lg:object-center" />
         <div className="absolute bottom-0 w-full bg-black bg-opacity-20 backdrop-blur-lg rounded drop-shadow-lg text-white flex flex-row justify-between ">
             <div>
                 <p className="font-bold text-2xl w-60 lg:w-full truncate" >{title}</p>
