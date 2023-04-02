@@ -7,7 +7,7 @@ const Blogs = ({image, title, createdAt, category_1, category_2}) => {
             <img src={image} alt='im' className="object-fill h-80 object-left lg:object-center" />
         <div className="absolute bottom-0 w-full bg-black bg-opacity-20 backdrop-blur-lg rounded drop-shadow-lg text-white flex flex-row justify-between ">
             <div>
-                <p className="font-bold text-2xl" >{title}</p>
+                <p className="font-bold text-2xl truncate" >{title}</p>
                 <p className="text-base">{createdAt}</p>
             </div>
             <div className='flex flex-col md:flex-row px-2 mt-1 mb-1 md:gap-x-2'>
