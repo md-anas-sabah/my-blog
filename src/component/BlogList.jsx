@@ -27,9 +27,7 @@ const BlogList = () => {
             <div className='px-5 py-3 text-[10px] md:text-base bg-gray-900 flex items-center justify-center  rounded-full text-[#F7AB0A] h-12 w-40'>
             <Link to="/" className='text-lg'>See More</Link>
             </div>
-         </div>
-        
-
+         </div> 
     </div>
   )
 }
