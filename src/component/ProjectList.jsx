@@ -4,6 +4,7 @@ import Projects from './Projects'
 import muroexe from '../assets/muroexe.png'
 import vsapp from '../assets/vsapp.png'
 import challan from '../assets/challan.jpg'
+import foodista from '../assets/foodista.png'
 
 const ProjectList = () => {
   return (
@@ -24,7 +25,10 @@ const ProjectList = () => {
                 <Projects title="Video Streaming Application" image={vsapp} createdAt="01 March 2023" category_1="React" category_2="Redux"/> 
             </Link>
             <Link to="www.github.com">
-                <Projects title="Challan-X" image={challan}  createdAt="10 January 2023" category_1="React" category_2="MongoDB"/> 
+                <Projects title="Challan-X" image={challan}  createdAt="10 Nov 2023" category_1="React" category_2="MongoDB"/> 
+            </Link>
+            <Link to="www.github.com">
+                <Projects title="Foodista" image={foodista}  createdAt="10 January 2023" category_1="React" category_2="Context-Api"/> 
             </Link>
             </div>
             <div className='px-5 py-3 text-[10px] md:text-base bg-gray-900 flex items-center justify-center  rounded-full text-[#F7AB0A] h-12 w-40'>

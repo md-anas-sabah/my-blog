@@ -7,7 +7,7 @@ const Projects = ({image, title, createdAt, category_1, category_2}) => {
             <img src={image} alt='im' className="object-fill h-64 lg:h-80 md:w-[30rem] object-left lg:object-center" />
         <div className="absolute bottom-0 w-full bg-black bg-opacity-20 backdrop-blur-lg rounded drop-shadow-lg text-white flex flex-row justify-between ">
             <div>
-                <p className="font-bold text-2xl w-52 lg:w-full truncate" >{title}</p>
+                <p className="font-bold text-2xl w-52 lg:w-52 truncate" >{title}</p>
                 <p className="text-base">{createdAt}</p>
             </div>
             <div className='flex flex-col lg:flex-row px-2 mt-1 mb-1 gap-y-1 lg:gap-x-2'>
