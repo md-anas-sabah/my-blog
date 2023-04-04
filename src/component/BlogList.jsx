@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom'
 import promise from '../assets/promise.jpg'
 
 const BlogList = () => {
+
+
   return (
     <div className='px-10 py-5'>
         <div>
@@ -22,7 +24,7 @@ const BlogList = () => {
                 <Blogs title="React + Redux" image="https://res.cloudinary.com/practicaldev/image/fetch/s--tcZq71xv--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ulbh4rjjxhxz4ynowygh.jpg" createdAt="19 July 2022" category_1="React" category_2="Redux"/> 
             </Link>
             {/* <Link to="www.github.com">
-                <Blogs title="Life Cycle of a Component" image="https://res.cloudinary.com/practicaldev/image/fetch/s--RDdxoyBw--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/g1gg7j4clkbh0i84eka7.png" createdAt="08 July 2022" category_1="React" category_2="Dev.to"/> 
+                <Blogs className="hidden lg:inline-block" title="Life Cycle of a Component" image="https://res.cloudinary.com/practicaldev/image/fetch/s--RDdxoyBw--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/g1gg7j4clkbh0i84eka7.png" createdAt="08 July 2022" category_1="React" category_2="Dev.to"/> 
             </Link> */}
             {/* <Link to="www.github.com">
                 <Blogs title="TypeScript + React" image="https://res.cloudinary.com/practicaldev/image/fetch/s--X8DtWdxA--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/lk4xyn1glcyerqqs66xe.png" createdAt="28 June 2022" category_1="React" category_2="TypeScript"/> 

@@ -2,7 +2,9 @@ import React from 'react'
 
 const NextAuth = () => {
   return (
-    <div>NextAuth</div>
+    <div>
+        
+    </div>
   )
 }
 
