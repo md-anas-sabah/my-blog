@@ -3,12 +3,17 @@ import './App.css';
 // import Banner from './component/Banner';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Body from './component/Body';
+import NextAuth from './pages/NextAuth';
 
 
 const appRouter = createBrowserRouter([
   {
     path: '/',
     element: <Body />,
+  },
+  {
+    path: '/next-auth',
+    element: <NextAuth />
   }
 ])
 

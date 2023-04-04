@@ -35,7 +35,6 @@ const ProjectList = () => {
             <Link to="/" className='text-lg'>See More</Link>
             </div>
          </div> 
-
     </div>
   )
 }
