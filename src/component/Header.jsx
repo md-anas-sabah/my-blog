@@ -1,5 +1,5 @@
 import Logo from "../assets/Logo.png";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 // import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 const Header = () => {

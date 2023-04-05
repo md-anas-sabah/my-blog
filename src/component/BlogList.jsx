@@ -14,7 +14,7 @@ const BlogList = () => {
          
          <div className='flex flex-col items-center md:flex-col md:items-center' >
             <div className='flex flex-col md:flex-row md:flex-wrap md:justify-between' >
-             <Link to="/next-auth">
+             <Link to="/">
                 <Blogs title="Callback Hell & Promises" image={promise} createdAt="03 April 2023" category_1="JavaScript" category_2="Async"/> 
             </Link>
              <Link to="/next-auth">
