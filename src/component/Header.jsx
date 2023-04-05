@@ -1,5 +1,6 @@
 import Logo from "../assets/Logo.png";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
+// import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 const Header = () => {
     return (
@@ -15,6 +16,11 @@ const Header = () => {
               Checkout My LinkedIn Profile
           </a>
           </div>
+          {/* <div>
+            <Link to="https://github.com/md-anas-sabah">
+                <LinkedInIcon />
+            </Link>
+          </div> */}
       </header>
     )
   }
