@@ -1,6 +1,9 @@
 import React from 'react'
 import logo from '../assets/Logo.png'
 import { Link } from 'react-router-dom'
+import then from '../assets/then.png'
+import consume from '../assets/consume.png'
+import pr from '../assets/producer.png'
 
 const PromisePage = () => {
   return (
@@ -41,26 +44,46 @@ const PromisePage = () => {
              <h2 className='mt-2 text-xl font-bold'>Callback Hell</h2>
              <img className='mt-2' src="https://res.cloudinary.com/practicaldev/image/fetch/s--Yp81Gz0C--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/z52zdyiqmfesx63ggc8s.png" alt="b" />
 
-            <p className='mt-1'>First setup your Next application</p>
-            <p className='text-sm bg-black text-white px-2 w-56 rounded-md mt-1'>npx create-next-app app-name</p>
-            <img className='mt-1' src="https://res.cloudinary.com/practicaldev/image/fetch/s--u4JGF2Pi--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/478cofs9omvph260dl3d.png" alt="logo" />
-            <p className='mt-1 italic'>Note: npx stands for Node Package Execute and it comes with the npm to execute CLI command.</p>
-            <p className='mt-1'>This CLI tool enables you to quickly start building a new Next.js application, with everything set up for you. You can create a new app using the default Next.js template.</p>
-            <img className='mt-3 h- md:ml-52 md:h-96' src="https://res.cloudinary.com/practicaldev/image/fetch/s--NYHXkGhR--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/xvgekvmp2bgc9q5ikkcl.png" alt="logo" />
-            <p className='mt-1'>These folders/files will be created after running CLI.</p>
-            <p className='mt-2'>To add NextAuth.js to a project create a file called [...nextauth].js in pages/api/auth. This contains the dynamic route handler for NextAuth.js which will also contain all of your global NextAuth.js configurations.</p>
-            <p className="text-[10px] md:text-sm bg-black text-white px-2 w-52 md:w-72 rounded-md mt-3">In [...nextauth].js file add the following code</p>
-            <img className='mt-3 md:h-[27rem] md:w-[40rem]' src="https://res.cloudinary.com/practicaldev/image/fetch/s--bT4xl6G0--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ooedsocifagx737ruics.png" alt="pic" />
+             <p className='mt-1'>You are seeing now a nesting of functions here and code also looks scary and this is what we called <b>Callback Hell.</b> For a big application it creates more nesting.</p>
 
-            <p className='mt-1 italic'>Store your google api and client_secret in .env.local file</p>
-            <p className='mt-2' >To use authentication in your application first wrap your application with Session Provider.</p>
-            <img className='mt-2 md:h-[27rem]' src="https://res.cloudinary.com/practicaldev/image/fetch/s--XFSBSU9o--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2kpmtf1mmwdhqjqi14p4.png" alt="a" />
-            <p className='mt-2'>To be able to use useSession first you'll need to expose the session context,</p>
-            <p>using <b>SessionProvider</b> at the top level of your application</p>
+            <img className='mt-2 md:w-[40rem]' src="https://res.cloudinary.com/practicaldev/image/fetch/s--BO6Kp-XP--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/chjtb7l3lptzundml1in.jpeg" alt="c" />
 
-            <p className='mt-2 '>Now, to implement Sign-In and Sign-Out method, we have to import these to methods from next-auth/react and create a function on div or button where ever you want.</p>
-            <img className='mt-2 md:w-[44rem]' src="https://res.cloudinary.com/practicaldev/image/fetch/s--XAqdQ0Hq--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/r4m89stzpparsker4utz.png" alt="last" />
-            <p className='mt-4'>That's It!!</p>
+            <p className='mt-2'>To avoid this, we will see now <b>Promises</b>.</p>
+            <h2 className='mt-2 text-xl font-bold'>Promise</h2>
+            <p className='mt-2' >To fix the issue of Inversion of Control and Callback Hell, ES6(ECMAScript 6) Promise is the easier way to work with asynchronous programming in JavaScript.</p>
+            <p className='mt-1 italic font-semibold'>A promise acts as a container for a future value.</p>
+
+            <p className='mt-2'>For Example: <span className='text-[10px] md:text-sm bg-black text-white px-2 w-52 md:w-72 rounded-md'>const promise = createOrder(cart)</span></p>
+            <p className='mt-2'>Whenever JavaScript engine executes this line, this createOrder api will return us a promise.(Promise is nothing but an empty object) and program will just go on and execute.
+            But after fetching data from API, promise object get filled automatically.</p>
+
+            <h2 className='mt-2 text-xl font-bold'>Now how will we attach our callback to that promise?</h2>
+            <p className='mt-2'>We will use <span className='font-bold'>.then</span> method.</p>
+            <img className='mt-2 md:w-[40rem]' src={then} alt="d" />
+            <p className='mt-1'>This callback function runs automatically after fetching data from api in the promise object.</p>
+
+           <p className='mt-3 font-bold italic'>A Promise is an object representing the eventual completion or failure of an asynchronous operation.</p>
+            <p className='mt-2'>There are three states of promise:</p>
+            <p className='mt-1'>1.pending</p>
+            <p className='mt-1'>2.fulfilled</p>
+            <p className='mt-1'>3.rejected</p>
+
+            <h2 className='mt-2 text-xl font-bold'>Promise Chaining</h2>
+            <p className='mt-1'>Taking example of callback hell we can also do promise chaining</p>
+            <img className='mt-2 md:w-[40rem]' src="https://res.cloudinary.com/practicaldev/image/fetch/s--4z7KfLPY--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/mdt568rjsehc3qzicb3g.png" alt="e" />
+
+            <p className='italic mt-1'>We always return a promise from a promise, when we are chaining it</p>
+
+            <h2 className='mt-2 text-xl font-bold'>Create a Promise</h2>
+            <p className='mt-1 font-semibold'>Consumer Part</p>
+            <img className='mt-2 md:w-[40rem]' src={consume} alt="c" />
+            <p className='mt-4 font-semibold'>Producer Part</p>
+            <img className='mt-2 md:w-[40rem]' src={pr} alt="c" />
+
+            <p className='mt-3'>That's it!!</p>
+
+
+
        </div>
     </div>
   )
