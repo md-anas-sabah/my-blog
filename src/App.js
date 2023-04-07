@@ -5,6 +5,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Body from './component/Body';
 import NextAuth from './pages/NextAuth';
 import PromisePage from './pages/PromisePage';
+import MoreBlogs from './pages/MoreBlogs';
 
 
 const appRouter = createBrowserRouter([
@@ -19,6 +20,10 @@ const appRouter = createBrowserRouter([
   {
     path:'/promisepage',
     element: <PromisePage />
+  },
+  {
+    path: '/more-blogs',
+    element: <MoreBlogs/>
   }
 ])
 

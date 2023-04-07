@@ -6,6 +6,9 @@ import consume from '../assets/consume.png'
 import pr from '../assets/producer.png'
 
 const PromisePage = () => {
+
+ 
+
   return (
     <div className='px-10 py-5'>
         <div>
