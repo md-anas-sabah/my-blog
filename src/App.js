@@ -6,6 +6,7 @@ import Body from './component/Body';
 import NextAuth from './pages/NextAuth';
 import PromisePage from './pages/PromisePage';
 import MoreBlogs from './pages/MoreBlogs';
+import ReactRedux from './pages/ReactRedux';
 
 
 const appRouter = createBrowserRouter([
@@ -24,6 +25,11 @@ const appRouter = createBrowserRouter([
   {
     path: '/more-blogs',
     element: <MoreBlogs/>
+  },
+  {
+    path: "/react-redux",
+    element: <ReactRedux/>
+
   }
 ])
 
