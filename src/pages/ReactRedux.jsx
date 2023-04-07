@@ -47,9 +47,28 @@ const ReactRedux = () => {
             <p className='mt-2'>If performance is a concern, the best way to improve performance is to skip unnecessary re-renders, so that components only re-render when their data has actually changed. React Redux implements many performance optimizations internally, so that your own component only re-renders when it actually needs to.</p>
             <p className='mt-2'>In addition, by connecting multiple components in your React component tree, you can ensure that each connected component only extracts the specific pieces of data from the store state that are needed by that component. This means that your own component will need to re-render less often, because most of the time those specific pieces of data haven't changed.</p>
 
-            
-
-
+            <h2 className='mt-3 font-bold '>React Redux Setup</h2>
+            <p className='mt-2'>Create react application using:</p>
+            <p className='text-sm bg-black text-white px-2 w-56 rounded-md mt-1'>npx create-react-app app-name</p>
+            <p className='mt-2'>Next we install the two require packages i.e, redux and react-redux.</p>
+            <p className='text-sm bg-black text-white px-2 w-56 rounded-md mt-1'>npm intsall redux react-redux</p>
+            <p className='mt-2'>Now we will create component folder in src folder, inside component we will create CakeContainer.js file.</p>
+            <img className='mt-2 md:w-[40rem]' src="https://res.cloudinary.com/practicaldev/image/fetch/s--umxFSxZW--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/zjd97287ea3u8ftjq449.png" alt="a" />
+            <p className='mt-2'>In App.js we include CakeContainer Component.</p>
+            <img className='mt-2 md:w-[40rem]' src="https://res.cloudinary.com/practicaldev/image/fetch/s--dcQmYxFI--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/02obfl1tbk5ljroi3myg.png" alt="b" />
+            <p className='mt-1'>After including CakeContainer component in App.js, let's define Actions and Action Creators.</p>
+            <p className='mt-2'>Here, we will create cakeAction.js file and inside this file we will create a function called buyCake that returns an Action.</p>
+            <img className='mt-2 md:w-[40rem]' src="https://res.cloudinary.com/practicaldev/image/fetch/s--F07IcxuQ--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/hpul72fpe26qh6dsixpj.png" alt="c" />
+            <p className='italic font-semibold'>Action is a object with a type property and Action creator is a function(here: buyCake) that returns a object.</p>
+            <p className='mt-2'>Next we are going to implement Reducer.</p>
+            <p className='mt-2'>We know that a reducer is a function that accepts state and action as parameters and returns the new state.</p>
+            <img className='mt-2 md:w-[40rem]' src="https://res.cloudinary.com/practicaldev/image/fetch/s--OSkEr15G--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/lp271k3b51ypfd37x214.png" alt="d" />
+            <p className='mt-1'>Create Redux Store(state) and provide it our React application.</p>
+            <p className='mt-2'>Lets create store.js file and within this file we create our store for which we use createStore method from redux.</p>
+            <img className='mt-2 md:w-[40rem]' src="https://res.cloudinary.com/practicaldev/image/fetch/s--XevFvX5g--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/7wvf65aftwr53cmucxx5.png" alt="d" />
+            <p className='mt-1'>At last, In app.js import Provider from react-redux and wrap the div tag in the return statement with this provider component and for provider component to know our redux store we specify it as a prop.</p>
+            <img className='mt-2 md:w-[40rem]' src="https://res.cloudinary.com/practicaldev/image/fetch/s--46sR5Bz6--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/iqgtspejy9yyt3chwr5p.png" alt="e" />
+            <p className='mt-3'>That's all, I hope you found this article helpful.🙂</p>
 
        </div>
     </div>
