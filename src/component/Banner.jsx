@@ -8,7 +8,7 @@ const Banner = () => {
               </h2>
            </div>
            <p className="mt-5 md:mt-2 text-gray-400 max-w-sm">
-           A India based Frontend Developer. I have a diverse set of skills in Frontend Technologies.
+           A passionate CSE student with a love for coding, exploring new technologies, collaborating with others, and creating innovative solutions.
            </p>
       </div>
     )
