@@ -7,6 +7,7 @@ import NextAuth from './pages/NextAuth';
 import PromisePage from './pages/PromisePage';
 import MoreBlogs from './pages/MoreBlogs';
 import ReactRedux from './pages/ReactRedux';
+import LifeCyclePage from './pages/LifeCyclePage';
 
 
 const appRouter = createBrowserRouter([
@@ -30,6 +31,10 @@ const appRouter = createBrowserRouter([
     path: "/react-redux",
     element: <ReactRedux/>
 
+  },
+  {
+    path: "lifecycle",
+    element: <LifeCyclePage/>
   }
 ])
 

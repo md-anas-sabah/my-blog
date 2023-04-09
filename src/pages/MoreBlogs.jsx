@@ -10,7 +10,7 @@ function MoreBlogs() {
              
              <div className='flex flex-col items-center md:flex-col md:items-center' >
                 <div className='flex flex-col md:flex-row md:flex-wrap md:justify-between' >
-                <Link to="www.github.com">
+                <Link to="/lifecycle">
                     <Blogs className="hidden lg:inline-block" title="Life Cycle of a Component" image="https://res.cloudinary.com/practicaldev/image/fetch/s--RDdxoyBw--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/g1gg7j4clkbh0i84eka7.png" createdAt="08 July 2022" category_1="React" category_2="Dev.to"/> 
                 </Link>
                 <Link to="www.github.com">
