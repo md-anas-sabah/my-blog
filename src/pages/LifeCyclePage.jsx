@@ -11,7 +11,7 @@ const LifeCyclePage = () => {
   return (
     <div className='px-10 py-5'>
         <div>
-          <img className="h-60 md:h-[26rem] object-fill w-full" src="https://res.cloudinary.com/practicaldev/image/fetch/s--BE_B4Me5--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/sh436pszjdyiczpfjpil.jpg" alt="logo" />
+          <img className="h-60 md:h-[26rem] object-fill w-full" src="https://res.cloudinary.com/practicaldev/image/fetch/s--RDdxoyBw--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/g1gg7j4clkbh0i84eka7.png" alt="logo" />
           <div className='mt-1 flex flex-row gap-x-1'>
             <img className='h-8 w-8 rounded-full' src={logo}alt="logo" />
             <div>
@@ -21,7 +21,7 @@ const LifeCyclePage = () => {
           </div>
         </div>
         <div className='px-5 py-3 text-[10px] md:text-base md:w-96 justify-center bg-gray-900 flex items-center rounded-full text-center text-[#F7AB0A] mt-3 '>
-          <Link to="https://dev.to/mdanassabah/callback-hell-and-promises-4mo1">
+          <Link to="https://dev.to/mdanassabah/life-cycle-of-a-component-56cp">
              <p>Check this out on Dev.to</p>
           </Link>
         </div>
