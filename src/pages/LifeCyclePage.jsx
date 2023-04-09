@@ -26,13 +26,13 @@ const LifeCyclePage = () => {
           </Link>
         </div>
         <div className='mt-4'>
-            <h1 className='text-2xl md:text-4xl font-bold'>Callback Hell and Promises</h1>
-            <p className='mt-1'>For understanding the concept of Callback Hell, I think you should know about Callback.</p>
-            <h2 className='mt-2 text-xl font-bold'>What is Callback?</h2>
-            <p className='mt-1'>Callback is a powerful way to do asynchronous thing in JavaScript. It is a function which is to be executed after another function has finished execution.</p>
-
-            <p className='mt-3'>Suppose, we have an E-commerce Application where we have createOrder and proceedToPayment function which have to execute one after another respectively.
-              We have dependency between those two , We can manage those dependency in our code using callback because it's an async operation.</p>
+            <h1 className='text-2xl md:text-4xl font-bold'>Life Cycle of a Component</h1>
+            <p className='mt-1'>Life cycle of a component can be defined as the series of methods that are invoked in different stages of the component existence.</p>
+            <p className='mt-1'>Stages are:</p>
+            <p className='mt-3'>1. Initialization</p>
+            <p className='mt-3'>2. Mounting</p>
+            <p className='mt-3'>3. Mounting</p>
+            <p className='mt-3'>4. Initialization</p>
             <img className='mt-3 md:w-[40rem]' src="https://res.cloudinary.com/practicaldev/image/fetch/s--RXqFvXQy--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/gc8fna4lylixczsill3l.png" alt="a" />
             <p className='mt-1 italic'>When JavaScript Engine executes this code it will just call the createOrder api.
             Now it is responsibility of createOrder function to callback proceedToPayment api</p>
