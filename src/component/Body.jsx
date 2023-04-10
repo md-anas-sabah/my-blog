@@ -10,6 +10,7 @@ const Body = () => {
   
         <BlogList />
         <ProjectList/>
+        <TechStack />
     </div>
   )
 }
