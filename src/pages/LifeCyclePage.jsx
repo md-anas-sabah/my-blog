@@ -1,9 +1,7 @@
 import React from 'react'
 import logo from '../assets/Logo.png'
 import { Link } from 'react-router-dom'
-import then from '../assets/then.png'
-import consume from '../assets/consume.png'
-import pr from '../assets/producer.png'
+
 
 const LifeCyclePage = () => {
 
