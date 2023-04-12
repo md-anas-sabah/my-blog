@@ -27,13 +27,31 @@ const LifeCyclePage = () => {
             <h1 className='text-2xl md:text-4xl font-bold'>Life Cycle of a Component</h1>
             <p className='mt-1'>Life cycle of a component can be defined as the series of methods that are invoked in different stages of the component existence.</p>
             <p className='mt-1'>Stages are:</p>
-            <p className='mt-3'>1. Initialization</p>
-            <p className='mt-3'>2. Mounting</p>
-            <p className='mt-3'>3. Mounting</p>
-            <p className='mt-3'>4. Unmounting</p>
-            
+            <p className=''>1. Initialization</p>
+            <p className=''>2. Mounting</p>
+            <p className=''>3. Mounting</p>
+            <p className=''>4. Unmounting</p>
 
-
+            <h2 className='mt-2 font-semibold'>Function of each Phase of Cycle</h2>
+            <p className='font-semibold mt-1'>1. Initialization</p>
+            <p className='mt-1'>In this phase, we have to define the props and initial state of the component. This is done in the constructor of the component.</p>
+            <p className='mt-2 font-semibold'>2. Mounting</p>
+            <p className='mt-1'>In this phase, Initialization of the component is completed and the component is mounted on the DOM and rendered on the first time on web page.</p>
+            <p> • componentWillMount() Function</p>
+            <p> • componentDidMount() Function</p>
+            <p className='font-semibold mt-1'>3. Mounting</p>
+            <p className='mt-1'>It is the phase where the states and the props of a component are updated followed by some user events like click or press keyboard button etc.</p>
+            <p>• componentWillRecieveProps() Function</p>
+            <p>• setState() Function</p>
+            <p>• shouldComponentUpdate() Function</p>
+            <p>• componentWillUpdate() Function</p>
+            <p>• componentDidUpdate() Function</p>
+            <p className='font-semibold mt-1'>4. Unmounting</p>
+            <p className='mt-1'>This is the final phase of the life cycle of the component that is the phase of unmounting the component from the DOM.</p>
+            <p>• componentWillUnmount() Function</p>
+            <p className='mt-3 italic text-gray-500'>Note: React follows a default procedure in the Naming Conventions of these predefined functions where the functions containing “Will” represents before some specific phase and “Did” represents after the completion of that phase.</p>
+            <img className='mt-3 w-[40rem]' src="https://res.cloudinary.com/practicaldev/image/fetch/s--uOL63gFw--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/u9n91nq7xtj0713uhdsy.png" alt="n" />
+            <p></p>
 
        </div>
     </div>
