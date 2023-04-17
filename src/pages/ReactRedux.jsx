@@ -52,7 +52,7 @@ const ReactRedux = () => {
             <p className='text-sm bg-black text-white px-2 w-56 rounded-md mt-1'>npx create-react-app app-name</p>
             <p className='mt-2'>Next we install the two require packages i.e, redux and react-redux.</p>
             <p className='text-sm bg-black text-white px-2 w-56 rounded-md mt-1'>npm intsall redux react-redux</p>
-            <p className='mt-2'>Now we will create component folder in src folder, inside component we will create CakeContainer.js file.</p>
+            <p className='mt-2'>Now we will create components folder in src folder, inside components we will create CakeContainer.js file.</p>
             <img className='mt-2 md:w-[40rem]' src="https://res.cloudinary.com/practicaldev/image/fetch/s--umxFSxZW--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/zjd97287ea3u8ftjq449.png" alt="a" />
             <p className='mt-2'>In App.js we include CakeContainer Component.</p>
             <img className='mt-2 md:w-[40rem]' src="https://res.cloudinary.com/practicaldev/image/fetch/s--dcQmYxFI--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/02obfl1tbk5ljroi3myg.png" alt="b" />

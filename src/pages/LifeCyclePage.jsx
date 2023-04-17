@@ -4,8 +4,6 @@ import { Link } from 'react-router-dom'
 
 
 const LifeCyclePage = () => {
-
-
   return (
     <div className='px-10 py-5'>
         <div>
