@@ -8,6 +8,8 @@ import PromisePage from './pages/PromisePage';
 import MoreBlogs from './pages/MoreBlogs';
 import ReactRedux from './pages/ReactRedux';
 import LifeCyclePage from './pages/LifeCyclePage';
+import TypeScriptReact from './pages/TypeScriptReact';
+
 
 
 const appRouter = createBrowserRouter([
@@ -35,6 +37,10 @@ const appRouter = createBrowserRouter([
   {
     path: "lifecycle",
     element: <LifeCyclePage/>
+  },
+  {
+    path:"typescript+react",
+    element: <TypeScriptReact/>
   }
 ])
 

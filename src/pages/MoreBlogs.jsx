@@ -13,7 +13,7 @@ function MoreBlogs() {
                 <Link to="/lifecycle">
                     <Blogs className="hidden lg:inline-block" title="Life Cycle of a Component" image="https://res.cloudinary.com/practicaldev/image/fetch/s--RDdxoyBw--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/g1gg7j4clkbh0i84eka7.png" createdAt="08 July 2022" category_1="React" category_2="Dev.to"/> 
                 </Link>
-                <Link to="www.github.com">
+                <Link to="/typescript+react">
                     <Blogs title="TypeScript + React" image="https://res.cloudinary.com/practicaldev/image/fetch/s--X8DtWdxA--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/lk4xyn1glcyerqqs66xe.png" createdAt="28 June 2022" category_1="React" category_2="TypeScript"/> 
                 </Link>
                 </div>
