@@ -9,7 +9,7 @@ function TechStack() {
         <div>
             <h1 className='text-center text-3xl uppercase'>My Tech Stack</h1>
         </div>
-        <h1>ComingSoon🚀</h1>
+        <h1>JavaScript, TypeScript and many more coming soon🚀</h1>
     </div>
   )
 }
