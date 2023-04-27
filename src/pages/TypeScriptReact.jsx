@@ -21,7 +21,7 @@ function TypeScriptReact() {
           </Link>
         </div>
         <div className='mt-4'>
-            <h1 className='text-2xl md:text-4xl font-bold'>TypeScript + React Native</h1>
+            <h1 className='text-2xl md:text-4xl font-bold'>TypeScript + React</h1>
             
 
        </div>
